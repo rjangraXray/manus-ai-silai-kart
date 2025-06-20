@@ -1,0 +1,12 @@
+.local/
+node_modules/
+silai-kart/node_modules/
+silai-kart-backend/venv/
+.env
+
+
+
+.browser_data_dir/
+.local/
+
+

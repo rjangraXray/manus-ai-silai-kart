@@ -28,3 +28,4 @@
 2025-06-20 08:29:35.949 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
 2025-06-20 08:29:43.664 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 2025-06-20 08:33:39.366 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-06-20 08:37:46.105 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000

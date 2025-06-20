@@ -263,3 +263,52 @@ warning: There are too many unreachable loose objects; run 'git prune' to remove
 2025-06-20 08:33:47.077 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
 2025-06-20 08:33:47.084 [info] > git status -z -uall [16ms]
 2025-06-20 08:33:47.595 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-20 08:37:45.952 [info] > git fetch [13ms]
+2025-06-20 08:37:45.952 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-06-20 08:37:45.961 [info] > git fetch [15ms]
+2025-06-20 08:37:45.961 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-06-20 08:37:45.967 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/ubuntu/.nvm/.git/HEAD'
+2025-06-20 08:37:45.973 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/ubuntu/.nvm/.git/config'
+2025-06-20 08:37:45.979 [info] > git config --get commit.template [19ms]
+2025-06-20 08:37:45.984 [info] > git remote --verbose [11ms]
+2025-06-20 08:37:45.985 [info] > git symbolic-ref --short HEAD [18ms]
+2025-06-20 08:37:45.990 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-06-20 08:37:46.002 [info] > git config --get commit.template [23ms]
+2025-06-20 08:37:46.003 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2025-06-20 08:37:46.022 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-06-20 08:37:46.023 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [22ms]
+2025-06-20 08:37:46.087 [info] > git status -z -uall [89ms]
+2025-06-20 08:37:46.117 [info] > git status -z -uall [106ms]
+2025-06-20 08:37:46.131 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-20 08:37:46.139 [info] > git config --get --local branch.master.vscode-merge-base [1ms]
+2025-06-20 08:37:46.139 [warning] [Git][config] git config failed: Failed to execute git
+2025-06-20 08:37:46.147 [info] > git reflog master --grep-reflog=branch: Created from *. [1ms]
+2025-06-20 08:37:46.154 [info] > git symbolic-ref --short refs/remotes/main/HEAD [1ms]
+2025-06-20 08:37:46.154 [info] fatal: ref refs/remotes/main/HEAD is not a symbolic ref
+2025-06-20 08:37:46.154 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-06-20 08:37:46.629 [info] > git rev-parse --show-toplevel [3ms]
+2025-06-20 08:38:05.238 [info] > git config --get commit.template [6ms]
+2025-06-20 08:38:05.238 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-20 08:38:05.250 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-06-20 08:38:05.313 [info] > git status -z -uall [70ms]
+2025-06-20 08:38:10.328 [info] > git config --get commit.template [6ms]
+2025-06-20 08:38:10.329 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-20 08:38:10.340 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-20 08:38:10.401 [info] > git status -z -uall [67ms]
+2025-06-20 08:38:13.570 [info] > git check-ignore -v -z --stdin [14ms]
+2025-06-20 08:38:37.057 [info] > git config --get commit.template [5ms]
+2025-06-20 08:38:37.058 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-20 08:38:37.068 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-20 08:38:37.106 [info] > git status -z -uall [44ms]
