@@ -1,0 +1,108 @@
+2025-06-17 12:37:10.963 [info] 
+
+
+
+
+2025-06-17 12:37:10.986 [info] Extension host agent started.
+2025-06-17 12:37:11.082 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.local/share/code-server/extensions
+2025-06-17 12:37:11.093 [info] ComputeTargetPlatform: linux-x64
+2025-06-17 12:37:11.102 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.local/share/code-server/extensions
+2025-06-17 12:37:26.553 [info] [10.0.241.1][3feda205][ManagementConnection] New connection established.
+2025-06-17 12:37:29.924 [info] [10.0.241.1][6fddd733][ExtensionHostConnection] New connection established.
+2025-06-17 12:37:29.929 [info] [10.0.241.1][6fddd733][ExtensionHostConnection] <7308> Launched Extension Host Process.
+2025-06-17 12:42:22.335 [info] ComputeTargetPlatform: linux-x64
+2025-06-17 12:42:53.145 [info] [10.0.241.1][3feda205][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-06-17 12:42:53.279 [info] [10.0.241.1][6fddd733][ExtensionHostConnection] <7308> Extension Host Process exited with code: 0, signal: null.
+2025-06-17 12:42:57.467 [info] [10.0.241.1][d7b06a49][ManagementConnection] New connection established.
+2025-06-17 12:43:01.528 [info] [10.0.241.1][09664388][ExtensionHostConnection] New connection established.
+2025-06-17 12:43:01.535 [info] [10.0.241.1][09664388][ExtensionHostConnection] <15492> Launched Extension Host Process.
+2025-06-17 12:44:22.791 [info] [10.0.241.1][d7b06a49][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-06-17 12:44:22.852 [info] [10.0.241.1][09664388][ExtensionHostConnection] <15492> Extension Host Process exited with code: 0, signal: null.
+2025-06-17 12:53:05.891 [info] [10.96.170.1][9da05f7d][ManagementConnection] New connection established.
+2025-06-17 12:53:08.781 [info] [10.96.170.1][efaeaa82][ExtensionHostConnection] New connection established.
+2025-06-17 12:53:08.787 [info] [10.96.170.1][efaeaa82][ExtensionHostConnection] <16614> Launched Extension Host Process.
+2025-06-17 13:06:28.649 [info] Getting Manifest... procker.codeshare
+2025-06-17 13:06:29.059 [info] Installing extension: procker.codeshare {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.local/share/code-server/extensions/extensions.json","external":"file:///home/ubuntu/.local/share/code-server/extensions/extensions.json","path":"/home/ubuntu/.local/share/code-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.100.3","date":"2025-06-03T19:11:28.504Z"}}
+2025-06-17 13:06:30.423 [info] Extracted extension to file:///home/ubuntu/.local/share/code-server/extensions/procker.codeshare-1.1.0-universal: procker.codeshare
+2025-06-17 13:06:30.476 [info] Renamed to /home/ubuntu/.local/share/code-server/extensions/procker.codeshare-1.1.0-universal
+2025-06-17 13:06:30.485 [info] Extension installed successfully: procker.codeshare file:///home/ubuntu/.local/share/code-server/extensions/extensions.json
+2025-06-17 13:07:24.265 [info] [10.96.170.1][14299daf][ManagementConnection] New connection established.
+2025-06-17 13:07:26.965 [info] [10.96.170.1][2914861a][ExtensionHostConnection] New connection established.
+2025-06-17 13:07:26.972 [info] [10.96.170.1][2914861a][ExtensionHostConnection] <21825> Launched Extension Host Process.
+2025-06-17 13:07:58.463 [info] Getting Manifest... typefox.open-collaboration-tools
+2025-06-17 13:07:58.872 [info] Installing extension: typefox.open-collaboration-tools {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.local/share/code-server/extensions/extensions.json","external":"file:///home/ubuntu/.local/share/code-server/extensions/extensions.json","path":"/home/ubuntu/.local/share/code-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.100.3","date":"2025-06-03T19:11:28.504Z"}}
+2025-06-17 13:07:59.699 [info] Extracted extension to file:///home/ubuntu/.local/share/code-server/extensions/typefox.open-collaboration-tools-0.3.1-universal: typefox.open-collaboration-tools
+2025-06-17 13:07:59.702 [info] Renamed to /home/ubuntu/.local/share/code-server/extensions/typefox.open-collaboration-tools-0.3.1-universal
+2025-06-17 13:07:59.710 [info] Extension installed successfully: typefox.open-collaboration-tools file:///home/ubuntu/.local/share/code-server/extensions/extensions.json
+2025-06-17 13:15:48.708 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-17 13:17:09.572 [info] [10.6.206.1][fe7dd06c][ManagementConnection] New connection established.
+2025-06-17 13:17:12.530 [info] [10.6.206.1][0a597b57][ExtensionHostConnection] New connection established.
+2025-06-17 13:17:12.535 [info] [10.6.206.1][0a597b57][ExtensionHostConnection] <25665> Launched Extension Host Process.
+2025-06-17 13:31:27.833 [error] Error: read ETIMEDOUT
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-06-17 13:31:27.835 [error] Error: read ETIMEDOUT
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-06-17 13:31:27.836 [info] [10.96.170.1][14299daf][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-06-17 13:31:27.836 [info] [10.96.170.1][9da05f7d][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-06-17 13:36:43.454 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-17 13:36:49.887 [info] [10.96.170.1][9da05f7d][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-06-17 13:36:49.887 [info] [10.96.170.1][14299daf][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-06-17 13:36:49.887 [info] [10.40.43.1][aaf5d84c][ManagementConnection] New connection established.
+2025-06-17 13:36:53.414 [info] [10.40.43.1][d3b444c8][ExtensionHostConnection] New connection established.
+2025-06-17 13:36:53.421 [info] [10.40.43.1][d3b444c8][ExtensionHostConnection] <38808> Launched Extension Host Process.
+2025-06-17 13:41:25.022 [info] [10.40.43.1][aaf5d84c][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-06-17 13:41:50.038 [info] [10.96.170.1][9da05f7d][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-06-17 13:41:50.047 [info] [10.96.170.1][14299daf][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-06-17 13:41:50.094 [info] [10.96.170.1][2914861a][ExtensionHostConnection] <21825> Extension Host Process exited with code: 0, signal: null.
+2025-06-17 13:41:50.304 [info] [10.96.170.1][efaeaa82][ExtensionHostConnection] <16614> Extension Host Process exited with code: 0, signal: null.
+2025-06-17 13:52:27.352 [error] Error: read ETIMEDOUT
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-06-17 13:52:27.354 [info] [10.6.206.1][fe7dd06c][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-06-20 11:19:41.506 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-20 11:19:57.652 [info] [10.6.206.1][fe7dd06c][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-06-20 11:19:57.652 [info] [10.40.43.1][aaf5d84c][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-06-20 11:19:57.652 [info] [10.185.18.1][d57c1065][ManagementConnection] New connection established.
+2025-06-20 11:20:01.378 [info] [10.185.18.1][eeeb185a][ExtensionHostConnection] New connection established.
+2025-06-20 11:20:01.390 [info] [10.185.18.1][eeeb185a][ExtensionHostConnection] <51703> Launched Extension Host Process.
+2025-06-20 11:24:57.747 [info] [10.6.206.1][fe7dd06c][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-06-20 11:24:57.749 [info] [10.40.43.1][aaf5d84c][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-06-20 11:24:57.986 [info] [10.6.206.1][0a597b57][ExtensionHostConnection] <25665> Extension Host Process exited with code: 0, signal: null.
+2025-06-20 11:24:58.046 [info] [10.40.43.1][d3b444c8][ExtensionHostConnection] <38808> Extension Host Process exited with code: 0, signal: null.
+2025-06-20 11:35:33.809 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-20 11:35:39.515 [info] [10.219.232.1][6e695eb2][ManagementConnection] New connection established.
+2025-06-20 11:35:42.175 [info] [10.219.232.1][6b79ee24][ExtensionHostConnection] New connection established.
+2025-06-20 11:35:42.184 [info] [10.219.232.1][6b79ee24][ExtensionHostConnection] <59619> Launched Extension Host Process.
+2025-06-20 11:52:02.510 [error] Error: read ETIMEDOUT
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-06-20 11:52:02.525 [info] [10.185.18.1][d57c1065][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-06-20 11:52:02.528 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-20 11:52:08.240 [info] [10.185.18.1][d57c1065][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-06-20 11:52:08.241 [info] [10.173.72.1][187af335][ManagementConnection] New connection established.
+2025-06-20 11:52:10.964 [info] [10.173.72.1][65aa623d][ExtensionHostConnection] New connection established.
+2025-06-20 11:52:10.973 [info] [10.173.72.1][65aa623d][ExtensionHostConnection] <69683> Launched Extension Host Process.
+2025-06-20 11:57:08.590 [info] [10.185.18.1][d57c1065][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-06-20 11:57:08.873 [info] [10.185.18.1][eeeb185a][ExtensionHostConnection] <51703> Extension Host Process exited with code: 0, signal: null.
+2025-06-20 12:10:28.489 [error] Error: read ETIMEDOUT
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2025-06-20 12:10:28.561 [info] [10.219.232.1][6e695eb2][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-06-20 12:10:28.579 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-20 12:10:42.862 [info] [10.219.232.1][6e695eb2][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2025-06-20 12:10:42.863 [info] [10.227.131.1][65aa623d][ExtensionHostConnection] The client has reconnected.
+2025-06-20 12:10:43.898 [info] [10.227.131.1][187af335][ManagementConnection] The client has reconnected.
+2025-06-20 12:11:31.051 [info] [10.227.131.1][187af335][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-06-20 12:11:31.232 [info] [10.227.131.1][65aa623d][ExtensionHostConnection] <69683> Extension Host Process exited with code: 0, signal: null.
+2025-06-20 12:11:34.202 [info] [10.227.131.1][64cb199a][ManagementConnection] New connection established.
+2025-06-20 12:11:36.981 [info] [10.227.131.1][6e261db7][ExtensionHostConnection] New connection established.
+2025-06-20 12:11:36.995 [info] [10.227.131.1][6e261db7][ExtensionHostConnection] <80574> Launched Extension Host Process.
+2025-06-20 12:15:42.953 [info] [10.219.232.1][6e695eb2][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2025-06-20 12:15:43.296 [info] [10.219.232.1][6b79ee24][ExtensionHostConnection] <59619> Extension Host Process exited with code: 0, signal: null.
+2025-06-20 12:26:16.681 [warning] No ptyHost heartbeat after 6 seconds
+2025-06-20 12:26:23.755 [info] [10.230.153.1][cc5cab10][ManagementConnection] New connection established.
+2025-06-20 12:26:26.710 [info] [10.230.153.1][cd0f2674][ExtensionHostConnection] New connection established.
+2025-06-20 12:26:26.723 [info] [10.230.153.1][cd0f2674][ExtensionHostConnection] <85398> Launched Extension Host Process.
+2025-06-20 12:36:59.719 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-06-20 12:36:59.720 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-06-20 12:36:59.730 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-06-20 12:36:59.733 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-06-20 12:37:14.989 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-06-20 12:37:14.990 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

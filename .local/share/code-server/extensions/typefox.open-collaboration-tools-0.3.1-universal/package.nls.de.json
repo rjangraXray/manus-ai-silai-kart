@@ -1,0 +1,12 @@
+{
+  "oct.followPeer": "Teilnehmer folgen",
+  "oct.stopFollowPeer": "Teilnehmer nicht mehr folgen",
+  "oct.closeConnection": "Aktuelle Verbindung schließen",
+  "oct.joinRoom": "An der Collaboration-Session teilnehmen",
+  "oct.createRoom": "Collaboration-Session erstellen",
+  "oct.signOut": "Abmelden",
+  "oct.roomView": "Aktuelle Collaboration-Session",
+  "oct.serverUrl": "URL der Open Collaboration Tools Server-Instanz für Live-Collaboration-Sessions.",
+  "oct.alwaysAskToOverrideServerUrl": "Immer fragen, die Server-URL zu überschreiben, wenn einer Collaboration-Session mit einer bestimmten Server-URL als Teil der Sitzungs-ID beigetreten wird.",
+  "oct.user.color": "Farbe für Benutzer in Collaboration-Sessions"
+}

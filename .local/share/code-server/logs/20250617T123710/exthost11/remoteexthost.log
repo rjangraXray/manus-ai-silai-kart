@@ -1,0 +1,30 @@
+2025-06-20 08:26:31.971 [info] Extension host with pid 85398 started
+2025-06-20 08:26:31.971 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.local/share/code-server/User/workspaceStorage/7fd2cd0a/vscode.lock'
+2025-06-20 08:26:31.971 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/7fd2cd0a/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-06-20 08:26:31.975 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/7fd2cd0a/vscode.lock': The lock does not look stale, elapsed: 328 ms, giving up.
+2025-06-20 08:26:31.982 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/7fd2cd0a-1/vscode.lock': Lock acquired.
+2025-06-20 08:26:32.289 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-20 08:26:32.551 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-20 08:26:32.551 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-20 08:26:32.952 [info] Eager extensions activated
+2025-06-20 08:26:32.952 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-20 08:26:32.953 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-20 08:26:32.953 [info] ExtensionService#_doActivateExtension typefox.open-collaboration-tools, startup: false, activationEvent: 'onStartupFinished'
+2025-06-20 08:26:33.298 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-06-20 08:26:35.018 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-06-20 08:26:36.454 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2387
+2025-06-20 08:26:36.486 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-20 08:26:36.935 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2387
+2025-06-20 08:26:36.947 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-20 08:26:40.047 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-20 08:26:40.047 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-20 08:26:40.047 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-20 08:26:43.471 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10002
+2025-06-20 08:26:45.111 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2387
+2025-06-20 08:26:46.216 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2387
+2025-06-20 08:28:40.419 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2387
+2025-06-20 08:28:46.281 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10002
+2025-06-20 08:29:29.107 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-06-20 08:29:35.949 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-06-20 08:29:43.664 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-06-20 08:33:39.366 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000

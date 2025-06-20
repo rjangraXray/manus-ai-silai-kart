@@ -1,0 +1,335 @@
+2025-06-20 07:52:15.945 [info] [main] Log level: Info
+2025-06-20 07:52:15.945 [info] [main] Validating found git in: "git"
+2025-06-20 07:52:15.945 [info] [main] Using git "2.34.1" from "git"
+2025-06-20 07:52:15.945 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-20 07:52:15.945 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-20 07:52:15.945 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-06-20 07:52:15.946 [info] [Model][openRepository] Opened repository (path): /home/ubuntu
+2025-06-20 07:52:15.946 [info] [Model][openRepository] Opened repository (real path): /home/ubuntu
+2025-06-20 07:52:15.946 [info] > git fetch [9ms]
+2025-06-20 07:52:15.946 [info] > git rev-parse --show-toplevel [4ms]
+2025-06-20 07:52:15.946 [info] > git config --get commit.template [8ms]
+2025-06-20 07:52:15.946 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-20 07:52:15.946 [info] > git config --get commit.template [7ms]
+2025-06-20 07:52:15.946 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-06-20 07:52:15.947 [warning] [Git][getBranch] No such branch: master
+2025-06-20 07:52:15.947 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-20 07:52:15.947 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2025-06-20 07:52:15.947 [warning] [Git][getBranch] No such branch: master
+2025-06-20 07:52:15.947 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-06-20 07:52:15.947 [info] > git rev-parse --show-toplevel [15ms]
+2025-06-20 07:52:15.948 [info] > git config --get commit.template [5ms]
+2025-06-20 07:52:15.948 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-06-20 07:52:15.948 [warning] [Git][getBranch] No such branch: master
+2025-06-20 07:52:15.948 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-20 07:52:15.948 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-20 07:52:15.948 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-06-20 07:52:15.948 [warning] [Git][getBranch] No such branch: master
+2025-06-20 07:52:15.949 [info] > git rev-parse --show-toplevel [7ms]
+2025-06-20 07:52:15.949 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-06-20 07:52:15.949 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-20 07:52:15.949 [info] > git rev-parse --show-toplevel [0ms]
+2025-06-20 07:52:15.949 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-06-20 07:52:15.949 [info] [Model][openRepository] Opened repository (path): /home/ubuntu/.nvm
+2025-06-20 07:52:15.949 [info] [Model][openRepository] Opened repository (real path): /home/ubuntu/.nvm
+2025-06-20 07:52:15.949 [info] > git config --get commit.template [4ms]
+2025-06-20 07:52:15.950 [info] > git rev-parse --show-toplevel [5ms]
+2025-06-20 07:52:15.950 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [4ms]
+2025-06-20 07:52:15.950 [info] > git status -z -uall [18ms]
+2025-06-20 07:52:15.950 [info] > git rev-parse --show-toplevel [23ms]
+2025-06-20 07:52:15.950 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-06-20 07:52:15.950 [info] > git rev-parse --show-toplevel [37ms]
+2025-06-20 07:52:15.950 [info] > git config --get commit.template [16ms]
+2025-06-20 07:52:15.950 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-20 07:52:15.951 [info] > git status -z -uall [255ms] (cancelled)
+2025-06-20 07:52:15.951 [info] > git rev-parse --git-dir --git-common-dir [144ms]
+2025-06-20 07:52:15.951 [info] [Model][openRepository] Opened repository (path): /home/ubuntu/silai-kart
+2025-06-20 07:52:15.951 [info] [Model][openRepository] Opened repository (real path): /home/ubuntu/silai-kart
+2025-06-20 07:52:15.951 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [156ms]
+2025-06-20 07:52:15.951 [info] > git status -z -uall [1393ms]
+2025-06-20 07:52:15.951 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1390ms]
+2025-06-20 07:52:15.952 [info] > git fetch [1400ms]
+2025-06-20 07:52:15.952 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/rjangraXray/silaikart.git/'
+2025-06-20 07:52:15.952 [info] > git fetch [1643ms]
+2025-06-20 07:52:15.963 [info] > git rev-parse --show-toplevel [45ms]
+2025-06-20 07:52:15.964 [info] > git config --get commit.template [64ms]
+2025-06-20 07:52:15.970 [info] > git config --get commit.template [8ms]
+2025-06-20 07:52:15.971 [info] > git config --get commit.template [14ms]
+2025-06-20 07:52:15.979 [info] > git rev-parse --git-dir --git-common-dir [10ms]
+2025-06-20 07:52:15.987 [info] [Model][openRepository] Opened repository (path): /home/ubuntu/silai-kart-backend
+2025-06-20 07:52:15.988 [info] [Model][openRepository] Opened repository (real path): /home/ubuntu/silai-kart-backend
+2025-06-20 07:52:16.040 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [62ms]
+2025-06-20 07:52:16.040 [warning] [Git][getBranch] No such branch: main
+2025-06-20 07:52:16.053 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-06-20 07:52:16.054 [warning] [Git][getBranch] No such branch: main
+2025-06-20 07:52:16.054 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-06-20 07:52:16.054 [info] > git rev-parse --show-toplevel [15ms]
+2025-06-20 07:52:16.055 [info] [Model][doInitialScan] Initial repository scan completed - repositories (4), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-20 07:52:16.056 [info] > git config --get commit.template [21ms]
+2025-06-20 07:52:16.056 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [27ms]
+2025-06-20 07:52:16.066 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [42ms]
+2025-06-20 07:52:16.066 [warning] [Git][getBranch] No such branch: main
+2025-06-20 07:52:16.068 [info] > git config --get commit.template [15ms]
+2025-06-20 07:52:16.080 [info] > git status -z -uall [20ms]
+2025-06-20 07:52:16.080 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2025-06-20 07:52:16.081 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-06-20 07:52:16.081 [warning] [Git][getBranch] No such branch: main
+2025-06-20 07:52:16.092 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2025-06-20 07:52:16.092 [warning] [Git][getBranch] No such branch: master
+2025-06-20 07:52:16.104 [info] > git status -z -uall [18ms]
+2025-06-20 07:52:16.104 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2025-06-20 07:52:16.114 [info] > git status -z -uall [17ms]
+2025-06-20 07:52:16.114 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2025-06-20 07:52:16.177 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
+2025-06-20 07:52:16.177 [warning] [Git][getBranch] No such branch: master
+2025-06-20 07:52:16.178 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-06-20 07:52:16.179 [info] > git config --get commit.template [6ms]
+2025-06-20 07:52:16.179 [info] > git fetch [192ms]
+2025-06-20 07:52:16.179 [info] Missing or invalid credentials.
+Skip silent fetch commands
+Missing or invalid credentials.
+Skip silent fetch commands
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/rjangraXray/silai-kart-backend.git/'
+2025-06-20 07:52:16.191 [info] > git config --get commit.template [7ms]
+2025-06-20 07:52:16.200 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2025-06-20 07:52:16.201 [warning] [Git][getBranch] No such branch: master
+2025-06-20 07:52:16.202 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-20 07:52:16.203 [warning] [Git][getBranch] No such branch: master
+2025-06-20 07:52:16.248 [info] > git status -z -uall [42ms]
+2025-06-20 07:52:16.248 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [37ms]
+2025-06-20 07:52:16.605 [info] > git check-ignore -v -z --stdin [8ms]
+2025-06-20 07:52:16.606 [info] > git check-ignore -v -z --stdin [5ms]
+2025-06-20 07:52:16.607 [info] > git check-ignore -v -z --stdin [3ms]
+2025-06-20 07:52:16.616 [info] > git rev-parse --show-toplevel [3ms]
+2025-06-20 07:52:17.136 [info] > git check-ignore -v -z --stdin [8ms]
+2025-06-20 07:52:17.137 [info] > git check-ignore -v -z --stdin [5ms]
+2025-06-20 07:52:17.137 [info] > git check-ignore -v -z --stdin [2ms]
+2025-06-20 07:52:18.519 [info] > git check-ignore -v -z --stdin [12ms]
+2025-06-20 07:52:18.520 [info] > git check-ignore -v -z --stdin [8ms]
+2025-06-20 07:52:18.520 [info] > git check-ignore -v -z --stdin [2ms]
+2025-06-20 07:53:02.892 [info] > git check-ignore -v -z --stdin [1ms]
+2025-06-20 07:53:04.478 [info] > git check-ignore -v -z --stdin [1ms]
+2025-06-20 07:53:05.513 [info] > git check-ignore -v -z --stdin [1ms]
+2025-06-20 07:53:07.033 [info] > git check-ignore -v -z --stdin [1ms]
+2025-06-20 07:53:14.010 [info] > git show --textconv :dist/assets/index-oKwk5LG0.css [11ms]
+2025-06-20 07:53:14.010 [info] > git show --textconv HEAD:dist/assets/index-oKwk5LG0.css [7ms]
+2025-06-20 07:53:14.010 [info] > git ls-files --stage -- dist/assets/index-oKwk5LG0.css [4ms]
+2025-06-20 07:53:14.019 [info] > git cat-file -s 0cf3cf0f2be2fc095bb331aafe03dcd368951553 [5ms]
+2025-06-20 07:53:14.019 [info] > git ls-tree -l HEAD -- dist/assets/index-oKwk5LG0.css [10ms]
+2025-06-20 07:53:14.019 [info] fatal: Not a valid object name HEAD
+2025-06-20 07:53:14.023 [info] > git hash-object -t tree /dev/null [6ms]
+2025-06-20 07:53:14.024 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/silai-kart/dist/assets/index-oKwk5LG0.css.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fsilai-kart%2Fdist%2Fassets%2Findex-oKwk5LG0.css%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-20 07:53:14.026 [info] > git hash-object -t tree /dev/null [3ms]
+2025-06-20 07:53:14.026 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/silai-kart/dist/assets/index-oKwk5LG0.css.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fsilai-kart%2Fdist%2Fassets%2Findex-oKwk5LG0.css%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-20 07:53:17.286 [info] > git show --textconv :dist/assets/index-CHjM7_9C.js [101ms]
+2025-06-20 07:53:17.288 [info] > git show --textconv HEAD:dist/assets/index-CHjM7_9C.js [92ms]
+2025-06-20 07:53:17.288 [info] > git ls-files --stage -- dist/assets/index-CHjM7_9C.js [75ms]
+2025-06-20 07:53:17.312 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/silai-kart/dist/assets/index-CHjM7_9C.js.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fsilai-kart%2Fdist%2Fassets%2Findex-CHjM7_9C.js%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-20 07:53:17.318 [info] > git ls-tree -l HEAD -- dist/assets/index-CHjM7_9C.js [68ms]
+2025-06-20 07:53:17.320 [info] fatal: Not a valid object name HEAD
+2025-06-20 07:53:17.321 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/silai-kart/dist/assets/index-CHjM7_9C.js.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fsilai-kart%2Fdist%2Fassets%2Findex-CHjM7_9C.js%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-06-20 07:53:17.357 [info] > git cat-file -s 3b65c83a000b650a8f125c6c80fd31eaed5b5a70 [46ms]
+2025-06-20 07:54:55.623 [info] > git check-ignore -v -z --stdin [1ms]
+2025-06-20 07:55:07.181 [info] > git check-ignore -v -z --stdin [1ms]
+2025-06-20 07:55:09.402 [info] > git check-ignore -v -z --stdin [1ms]
+2025-06-20 07:55:14.263 [info] > git fetch [3ms]
+2025-06-20 07:55:14.277 [info] [Git][getRemotes] No remotes found in the git config file
+2025-06-20 07:55:14.278 [info] > git config --get commit.template [5ms]
+2025-06-20 07:55:14.278 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-20 07:55:14.278 [warning] [Git][getBranch] No such branch: master
+2025-06-20 07:55:14.288 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-06-20 07:55:14.477 [info] > git status -z -uall [194ms] (cancelled)
+2025-06-20 07:55:16.235 [info] > git fetch [125ms]
+2025-06-20 07:55:16.250 [info] > git config --get commit.template [7ms]
+2025-06-20 07:55:16.252 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [3ms]
+2025-06-20 07:55:16.267 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-06-20 07:55:16.278 [info] > git status -z -uall [20ms]
+2025-06-20 07:55:16.788 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-20 07:55:17.592 [info] > git config --get commit.template [6ms]
+2025-06-20 07:55:17.595 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [4ms]
+2025-06-20 07:55:17.611 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-06-20 07:55:17.620 [info] > git status -z -uall [19ms]
+2025-06-20 07:55:18.129 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-20 07:56:11.160 [info] > git remote add main https://github.com/rjangraXray/manus-silaikart-project.git [2ms]
+2025-06-20 07:56:11.172 [info] > git config --get commit.template [5ms]
+2025-06-20 07:56:11.172 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-20 07:56:11.172 [warning] [Git][getBranch] No such branch: master
+2025-06-20 07:56:11.182 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-06-20 07:56:12.793 [info] > git status -z -uall [1617ms] (cancelled)
+2025-06-20 07:56:14.146 [info] > git fetch main [2764ms]
+2025-06-20 07:56:14.146 [info] From https://github.com/rjangraXray/manus-silaikart-project
+ * [new branch]      main       -> main/main
+2025-06-20 07:56:14.161 [info] > git config --get commit.template [7ms]
+2025-06-20 07:56:14.162 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-20 07:56:14.162 [warning] [Git][getBranch] No such branch: master
+2025-06-20 07:56:14.176 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-06-20 07:56:14.352 [info] > git status -z -uall [184ms] (cancelled)
+2025-06-20 07:56:22.172 [info] > git push [2ms]
+2025-06-20 07:56:22.172 [info] fatal: You are not currently on a branch.
+To push the history leading to the current (detached HEAD)
+state now, use
+
+    git push origin HEAD:<name-of-remote-branch>
+2025-06-20 07:56:22.182 [info] > git config --get commit.template [5ms]
+2025-06-20 07:56:22.184 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [3ms]
+2025-06-20 07:56:22.195 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-06-20 07:56:22.204 [info] > git status -z -uall [16ms]
+2025-06-20 07:56:22.713 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-20 07:56:41.186 [info] > git push [1ms]
+2025-06-20 07:56:41.186 [info] fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+2025-06-20 07:56:41.200 [info] > git config --get commit.template [6ms]
+2025-06-20 07:56:41.201 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-20 07:56:41.201 [warning] [Git][getBranch] No such branch: master
+2025-06-20 07:56:41.214 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-06-20 07:56:41.399 [info] > git status -z -uall [192ms] (cancelled)
+2025-06-20 07:58:14.507 [info] > git fetch [22ms]
+2025-06-20 07:58:14.507 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+2025-06-20 07:58:14.524 [info] > git config --get commit.template [8ms]
+2025-06-20 07:58:14.525 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-20 07:58:14.525 [warning] [Git][getBranch] No such branch: master
+2025-06-20 07:58:14.540 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-20 07:58:16.326 [info] > git status -z -uall [1795ms] (cancelled)
+2025-06-20 07:58:16.547 [info] > git fetch [213ms]
+2025-06-20 07:58:16.562 [info] > git config --get commit.template [6ms]
+2025-06-20 07:58:16.566 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [5ms]
+2025-06-20 07:58:16.579 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-06-20 07:58:16.588 [info] > git status -z -uall [16ms]
+2025-06-20 07:58:17.097 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-20 07:58:17.917 [info] > git config --get commit.template [6ms]
+2025-06-20 07:58:17.919 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [3ms]
+2025-06-20 07:58:17.934 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-06-20 07:58:17.942 [info] > git status -z -uall [17ms]
+2025-06-20 07:58:18.451 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-20 07:58:54.487 [info] > git config --get commit.template [7ms]
+2025-06-20 07:58:54.488 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-06-20 07:58:54.488 [warning] [Git][getBranch] No such branch: master
+2025-06-20 07:58:54.499 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-20 07:58:56.068 [info] > git status -z -uall [1575ms] (cancelled)
+2025-06-20 07:59:44.579 [info] > git add -A -- . [1791ms]
+2025-06-20 07:59:44.579 [info] warning: adding embedded git repository: .nvm
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> .nvm
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached .nvm
+hint: 
+hint: See "git help submodule" for more information.
+error: 'silai-kart-backend/' does not have a commit checked out
+fatal: adding files failed
+2025-06-20 07:59:44.595 [info] > git config --get commit.template [8ms]
+2025-06-20 07:59:44.597 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-06-20 07:59:44.597 [warning] [Git][getBranch] No such branch: master
+2025-06-20 07:59:44.618 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-06-20 07:59:46.173 [info] > git status -z -uall [1571ms] (cancelled)
+2025-06-20 08:00:00.365 [info] > git add -A -- . [1803ms]
+2025-06-20 08:00:00.365 [info] warning: adding embedded git repository: .nvm
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> .nvm
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached .nvm
+hint: 
+hint: See "git help submodule" for more information.
+error: 'silai-kart-backend/' does not have a commit checked out
+fatal: adding files failed
+2025-06-20 08:00:00.379 [info] > git config --get commit.template [6ms]
+2025-06-20 08:00:00.380 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-20 08:00:00.380 [warning] [Git][getBranch] No such branch: master
+2025-06-20 08:00:00.391 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-06-20 08:00:00.565 [info] > git status -z -uall [180ms] (cancelled)
+2025-06-20 08:00:20.912 [info] > git add -A -- . [152ms]
+2025-06-20 08:00:22.328 [info] > git check-ignore -v -z --stdin [1ms]
+2025-06-20 08:00:22.710 [info] > git show --textconv :.git/COMMIT_EDITMSG [8ms]
+2025-06-20 08:00:22.711 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/silai-kart/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fsilai-kart%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-06-20 08:00:22.712 [info] > git ls-files --stage -- .git/COMMIT_EDITMSG [3ms]
+2025-06-20 08:00:22.713 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/silai-kart/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fsilai-kart%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-06-20 08:00:51.104 [info] > git check-ignore -v -z --stdin [7ms]
+2025-06-20 08:00:51.104 [info] > git check-ignore -v -z --stdin [1ms]
+2025-06-20 08:01:16.524 [info] > git fetch [19ms]
+2025-06-20 08:01:16.524 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-06-20 08:01:16.560 [info] > git config --get commit.template [28ms]
+2025-06-20 08:01:16.560 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2025-06-20 08:01:16.561 [warning] [Git][getBranch] No such branch: master
+2025-06-20 08:01:16.575 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-06-20 08:01:18.164 [info] > git status -z -uall [1595ms] (cancelled)
+2025-06-20 08:01:18.164 [info] > git fetch [1567ms]
+2025-06-20 08:01:18.179 [info] > git config --get commit.template [2ms]
+2025-06-20 08:01:18.205 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [18ms]
+2025-06-20 08:01:18.241 [info] > git status -z -uall [24ms]
+2025-06-20 08:01:18.241 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [17ms]
+2025-06-20 08:01:18.753 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-20 08:05:53.903 [info] > git fetch [9ms]
+2025-06-20 08:05:53.903 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-06-20 08:05:53.929 [info] > git config --get commit.template [8ms]
+2025-06-20 08:05:53.937 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-06-20 08:05:53.938 [warning] [Git][getBranch] No such branch: master
+2025-06-20 08:05:54.001 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [24ms]
+2025-06-20 08:05:55.528 [info] > git status -z -uall [1576ms] (cancelled)
+2025-06-20 08:05:55.528 [info] > git fetch [1628ms]
+2025-06-20 08:05:55.560 [info] > git config --get commit.template [15ms]
+2025-06-20 08:05:55.560 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [3ms]
+2025-06-20 08:05:55.592 [info] > git status -z -uall [21ms]
+2025-06-20 08:05:55.606 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [15ms]
+2025-06-20 08:05:56.119 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-20 08:05:56.635 [info] > git config --get commit.template [6ms]
+2025-06-20 08:05:56.637 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [3ms]
+2025-06-20 08:05:56.650 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-06-20 08:05:56.661 [info] > git status -z -uall [18ms]
+2025-06-20 08:05:57.170 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-20 08:11:22.449 [info] > git fetch [7ms]
+2025-06-20 08:11:22.449 [info] Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+warning: The last gc run reported the following. Please correct the root cause
+and remove .git/gc.log
+Automatic cleanup will not be performed until the file is removed.
+
+warning: There are too many unreachable loose objects; run 'git prune' to remove them.
+2025-06-20 08:11:22.462 [info] > git config --get commit.template [7ms]
+2025-06-20 08:11:22.462 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-06-20 08:11:22.463 [warning] [Git][getBranch] No such branch: master
+2025-06-20 08:11:22.479 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-06-20 08:11:24.115 [info] > git status -z -uall [1647ms] (cancelled)
+2025-06-20 08:11:24.116 [info] > git fetch [1668ms]
+2025-06-20 08:11:24.134 [info] > git config --get commit.template [9ms]
+2025-06-20 08:11:24.137 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [4ms]
+2025-06-20 08:11:24.155 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-06-20 08:11:24.160 [info] > git status -z -uall [16ms]
+2025-06-20 08:11:24.669 [info] > git rev-parse --show-toplevel [1ms]

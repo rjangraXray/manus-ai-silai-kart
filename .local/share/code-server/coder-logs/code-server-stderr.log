@@ -1,0 +1,65 @@
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+[13:15:48] No ptyHost heartbeat after 6 seconds
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[13:31:27] Error: read ETIMEDOUT
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20) {
+  errno: -110,
+  code: 'ETIMEDOUT',
+  syscall: 'read'
+}
+[13:31:27] Error: read ETIMEDOUT
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20) {
+  errno: -110,
+  code: 'ETIMEDOUT',
+  syscall: 'read'
+}
+[13:36:43] No ptyHost heartbeat after 6 seconds
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[13:52:27] Error: read ETIMEDOUT
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20) {
+  errno: -110,
+  code: 'ETIMEDOUT',
+  syscall: 'read'
+}
+[11:19:41] No ptyHost heartbeat after 6 seconds
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+[11:35:33] No ptyHost heartbeat after 6 seconds
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[11:52:02] Error: read ETIMEDOUT
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20) {
+  errno: -110,
+  code: 'ETIMEDOUT',
+  syscall: 'read'
+}
+[11:52:02] No ptyHost heartbeat after 6 seconds
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+[12:10:28] Error: read ETIMEDOUT
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20) {
+  errno: -110,
+  code: 'ETIMEDOUT',
+  syscall: 'read'
+}
+[12:10:28] No ptyHost heartbeat after 6 seconds
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+[12:26:16] No ptyHost heartbeat after 6 seconds
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda.js
+File not found: /usr/lib/code-server/lib/vscode/node_modules/vsda/rust/web/vsda_bg.wasm
+[12:36:59] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[12:36:59] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[12:36:59] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[12:36:59] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[12:37:14] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[12:37:14] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

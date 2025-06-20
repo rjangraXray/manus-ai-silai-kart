@@ -1,0 +1,148 @@
+0 verbose cli /home/ubuntu/.nvm/versions/node/v22.13.0/bin/node /home/ubuntu/.nvm/versions/node/v22.13.0/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.13.0
+3 silly config load:file:/home/ubuntu/.nvm/versions/node/v22.13.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/ubuntu/.cache/typescript/5.8/.npmrc
+5 silly config load:file:/home/ubuntu/.npmrc
+6 silly config load:file:/home/ubuntu/.nvm/versions/node/v22.13.0/etc/npmrc
+7 verbose title npm install @types/estree@ts5.8 @types/json-schema@ts5.8 @types/babel__core@ts5.8
+8 verbose argv "install" "--ignore-scripts" "@types/estree@ts5.8" "@types/json-schema@ts5.8" "@types/babel__core@ts5.8" "--save-dev" "--user-agent" "typesInstaller/5.8.3"
+9 verbose logfile logs-max:10 dir:/home/ubuntu/.npm/_logs/2025-06-17T12_55_18_096Z-
+10 verbose logfile /home/ubuntu/.npm/_logs/2025-06-17T12_55_18_096Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2117074944 maxSize:529268736 maxEntrySize:264634368
+13 silly packumentCache corgi:https://registry.npmjs.org/@types%2festree cache-miss
+14 silly packumentCache corgi:https://registry.npmjs.org/@types%2fjson-schema cache-miss
+15 silly packumentCache corgi:https://registry.npmjs.org/@types%2fbabel__core cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@types%2fjson-schema 119ms (cache miss)
+17 silly packumentCache corgi:https://registry.npmjs.org/@types%2fjson-schema set size:undefined disposed:false
+18 http fetch GET 200 https://registry.npmjs.org/@types%2festree 126ms (cache miss)
+19 silly packumentCache corgi:https://registry.npmjs.org/@types%2festree set size:undefined disposed:false
+20 http fetch GET 200 https://registry.npmjs.org/@types%2fbabel__core 128ms (cache miss)
+21 silly packumentCache corgi:https://registry.npmjs.org/@types%2fbabel__core set size:undefined disposed:false
+22 silly idealTree buildDeps
+23 silly fetch manifest @types/json-schema@7.0.15
+24 silly packumentCache full:https://registry.npmjs.org/@types%2fjson-schema cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/@types%2fjson-schema 31ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/@types%2fjson-schema set size:undefined disposed:false
+27 silly fetch manifest @types/estree@1.0.8
+28 silly packumentCache full:https://registry.npmjs.org/@types%2festree cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/@types%2festree 39ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/@types%2festree set size:undefined disposed:false
+31 silly fetch manifest @types/babel__core@7.20.5
+32 silly packumentCache full:https://registry.npmjs.org/@types%2fbabel__core cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/@types%2fbabel__core 54ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/@types%2fbabel__core set size:undefined disposed:false
+35 silly placeDep ROOT @types/babel__core@7.20.5 OK for:  want: 7.20.5
+36 silly placeDep ROOT @types/estree@1.0.8 OK for:  want: 1.0.8
+37 silly placeDep ROOT @types/json-schema@7.0.15 OK for:  want: 7.0.15
+38 silly fetch manifest @babel/types@^7.20.7
+39 silly packumentCache full:https://registry.npmjs.org/@babel%2ftypes cache-miss
+40 silly fetch manifest @babel/parser@^7.20.7
+41 silly packumentCache full:https://registry.npmjs.org/@babel%2fparser cache-miss
+42 silly fetch manifest @types/babel__template@*
+43 silly packumentCache full:https://registry.npmjs.org/@types%2fbabel__template cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/@types%2fbabel__template 43ms (cache miss)
+45 silly packumentCache full:https://registry.npmjs.org/@types%2fbabel__template set size:undefined disposed:false
+46 silly fetch manifest @types/babel__traverse@*
+47 silly packumentCache full:https://registry.npmjs.org/@types%2fbabel__traverse cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/@babel%2ftypes 54ms (cache miss)
+49 silly packumentCache full:https://registry.npmjs.org/@babel%2ftypes set size:undefined disposed:false
+50 silly fetch manifest @types/babel__generator@*
+51 silly packumentCache full:https://registry.npmjs.org/@types%2fbabel__generator cache-miss
+52 http fetch GET 200 https://registry.npmjs.org/@babel%2fparser 60ms (cache miss)
+53 silly packumentCache full:https://registry.npmjs.org/@babel%2fparser set size:undefined disposed:false
+54 http fetch GET 200 https://registry.npmjs.org/@types%2fbabel__traverse 30ms (cache miss)
+55 silly packumentCache full:https://registry.npmjs.org/@types%2fbabel__traverse set size:undefined disposed:false
+56 http fetch GET 200 https://registry.npmjs.org/@types%2fbabel__generator 30ms (cache miss)
+57 silly packumentCache full:https://registry.npmjs.org/@types%2fbabel__generator set size:undefined disposed:false
+58 silly placeDep ROOT @babel/parser@7.27.5 OK for: @types/babel__core@7.20.5 want: ^7.20.7
+59 silly placeDep ROOT @babel/types@7.27.6 OK for: @types/babel__core@7.20.5 want: ^7.20.7
+60 silly placeDep ROOT @types/babel__generator@7.27.0 OK for: @types/babel__core@7.20.5 want: *
+61 silly placeDep ROOT @types/babel__template@7.4.4 OK for: @types/babel__core@7.20.5 want: *
+62 silly placeDep ROOT @types/babel__traverse@7.20.7 OK for: @types/babel__core@7.20.5 want: *
+63 silly fetch manifest @babel/types@^7.27.3
+64 silly packumentCache full:https://registry.npmjs.org/@babel%2ftypes cache-miss
+65 silly fetch manifest @babel/helper-string-parser@^7.27.1
+66 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-string-parser cache-miss
+67 silly fetch manifest @babel/helper-validator-identifier@^7.27.1
+68 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-validator-identifier cache-miss
+69 http cache https://registry.npmjs.org/@babel%2ftypes 11ms (cache hit)
+70 silly packumentCache full:https://registry.npmjs.org/@babel%2ftypes set size:458173 disposed:false
+71 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-string-parser 35ms (cache miss)
+72 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-string-parser set size:undefined disposed:false
+73 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-validator-identifier 36ms (cache miss)
+74 silly packumentCache full:https://registry.npmjs.org/@babel%2fhelper-validator-identifier set size:undefined disposed:false
+75 silly placeDep ROOT @babel/helper-string-parser@7.27.1 OK for: @babel/types@7.27.6 want: ^7.27.1
+76 silly placeDep ROOT @babel/helper-validator-identifier@7.27.1 OK for: @babel/types@7.27.6 want: ^7.27.1
+77 silly reify moves {}
+78 silly audit bulk request {
+78 silly audit   '@types/less': [ '3.0.8' ],
+78 silly audit   '@types/lodash': [ '4.17.17' ],
+78 silly audit   '@types/node': [ '24.0.3' ],
+78 silly audit   '@types/progress': [ '2.0.7' ],
+78 silly audit   '@types/react': [ '19.1.8' ],
+78 silly audit   '@types/react-dom': [ '19.1.6' ],
+78 silly audit   '@types/stylus': [ '0.48.43' ],
+78 silly audit   csstype: [ '3.1.3' ],
+78 silly audit   'types-registry': [ '0.1.725' ],
+78 silly audit   'undici-types': [ '7.8.0' ],
+78 silly audit   '@types/babel__core': [ '7.20.5' ],
+78 silly audit   '@types/estree': [ '1.0.8' ],
+78 silly audit   '@types/json-schema': [ '7.0.15' ],
+78 silly audit   '@babel/parser': [ '7.27.5' ],
+78 silly audit   '@babel/types': [ '7.27.6' ],
+78 silly audit   '@types/babel__generator': [ '7.27.0' ],
+78 silly audit   '@types/babel__template': [ '7.4.4' ],
+78 silly audit   '@types/babel__traverse': [ '7.20.7' ],
+78 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+78 silly audit   '@babel/helper-validator-identifier': [ '7.27.1' ]
+78 silly audit }
+79 http cache @babel/helper-string-parser@https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.27.1.tgz 0ms (cache hit)
+80 http cache @babel/helper-validator-identifier@https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.27.1.tgz 0ms (cache hit)
+81 http cache @types/babel__template@https://registry.npmjs.org/@types/babel__template/-/babel__template-7.4.4.tgz 0ms (cache hit)
+82 http cache @types/babel__traverse@https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.20.7.tgz 0ms (cache hit)
+83 http cache @types/babel__generator@https://registry.npmjs.org/@types/babel__generator/-/babel__generator-7.27.0.tgz 0ms (cache hit)
+84 http cache @babel/types@https://registry.npmjs.org/@babel/types/-/types-7.27.6.tgz 0ms (cache hit)
+85 http cache @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.27.5.tgz 0ms (cache hit)
+86 http cache @types/json-schema@https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.15.tgz 0ms (cache hit)
+87 http cache @types/estree@https://registry.npmjs.org/@types/estree/-/estree-1.0.8.tgz 0ms (cache hit)
+88 http cache @types/babel__core@https://registry.npmjs.org/@types/babel__core/-/babel__core-7.20.5.tgz 0ms (cache hit)
+89 silly tarball no local data for @babel/helper-string-parser@https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.27.1.tgz. Extracting by manifest.
+90 silly tarball no local data for @babel/helper-validator-identifier@https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.27.1.tgz. Extracting by manifest.
+91 silly tarball no local data for @types/babel__template@https://registry.npmjs.org/@types/babel__template/-/babel__template-7.4.4.tgz. Extracting by manifest.
+92 silly tarball no local data for @types/babel__traverse@https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.20.7.tgz. Extracting by manifest.
+93 silly tarball no local data for @types/babel__generator@https://registry.npmjs.org/@types/babel__generator/-/babel__generator-7.27.0.tgz. Extracting by manifest.
+94 silly tarball no local data for @babel/types@https://registry.npmjs.org/@babel/types/-/types-7.27.6.tgz. Extracting by manifest.
+95 silly tarball no local data for @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.27.5.tgz. Extracting by manifest.
+96 silly tarball no local data for @types/json-schema@https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.15.tgz. Extracting by manifest.
+97 silly tarball no local data for @types/estree@https://registry.npmjs.org/@types/estree/-/estree-1.0.8.tgz. Extracting by manifest.
+98 silly tarball no local data for @types/babel__core@https://registry.npmjs.org/@types/babel__core/-/babel__core-7.20.5.tgz. Extracting by manifest.
+99 http fetch GET 200 https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.27.1.tgz 99ms (cache miss)
+100 http fetch GET 200 https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.27.1.tgz 102ms (cache miss)
+101 http fetch GET 200 https://registry.npmjs.org/@types/babel__template/-/babel__template-7.4.4.tgz 108ms (cache miss)
+102 http fetch GET 200 https://registry.npmjs.org/@types/babel__generator/-/babel__generator-7.27.0.tgz 107ms (cache miss)
+103 http fetch GET 200 https://registry.npmjs.org/@types/estree/-/estree-1.0.8.tgz 108ms (cache miss)
+104 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 122ms
+105 silly audit report {}
+106 http fetch GET 200 https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.15.tgz 115ms (cache miss)
+107 http fetch GET 200 https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.20.7.tgz 118ms (cache miss)
+108 http fetch GET 200 https://registry.npmjs.org/@types/babel__core/-/babel__core-7.20.5.tgz 116ms (cache miss)
+109 http fetch GET 200 https://registry.npmjs.org/@babel/parser/-/parser-7.27.5.tgz 172ms (cache miss)
+110 http fetch GET 200 https://registry.npmjs.org/@babel/types/-/types-7.27.6.tgz 207ms (cache miss)
+111 silly ADD node_modules/@babel/helper-validator-identifier
+112 silly ADD node_modules/@babel/helper-string-parser
+113 silly ADD node_modules/@types/babel__traverse
+114 silly ADD node_modules/@types/babel__template
+115 silly ADD node_modules/@types/babel__generator
+116 silly ADD node_modules/@babel/types
+117 silly ADD node_modules/@babel/parser
+118 silly ADD node_modules/@types/json-schema
+119 silly ADD node_modules/@types/estree
+120 silly ADD node_modules/@types/babel__core
+121 verbose cwd /home/ubuntu/.cache/typescript/5.8
+122 verbose os Linux 6.1.102
+123 verbose node v22.13.0
+124 verbose npm  v10.9.2
+125 verbose exit 0
+126 info ok
